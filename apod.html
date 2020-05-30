@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Astronomy Picture for each day</title>
+    <link rel="stylesheet" href="apod.css">
+    <script src="apod.js"></script>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./nasa.png">
+        <h4>Astronomy Picture for each Day</h4>
+    </header>
+    <section>
+        <div class="picture-container">
+            <h5 id="title"></h5>
+            <img id="picture">
+            <form >
+                Choose a day:
+                <input id='datepicker' type='date' name='date'>
+                <input type="submit">
+                
+            </form>
+            <div class="loader"></div>
+            <div class="error" id="error"> </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
